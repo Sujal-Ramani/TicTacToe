@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Your TicTacToeTile style -->
+    <style name="TicTacToeTile">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#333333</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <!-- Add this: your app theme must extend Theme.AppCompat -->
+    <style name="Theme.FinalTic" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme colors here -->
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="colorAccent">#03DAC5</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,32 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.TicTacToe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TicTacToe"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalTic">
+
+        <activity
+            android:name="com.example.TicTacToe.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.FinalTic">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.TicTacToe.DashboardActivity" />
+        <activity android:name="com.example.TicTacToe.PlayAIActivity" />
+        <activity android:name="com.example.TicTacToe.AddPlayerActivity" />
+        <activity android:name="com.example.TicTacToe.MainActivity" />
+        <activity android:name="com.example.TicTacToe.ViewPlayersActivity" />
+
+
+    </application>
+</manifest>
