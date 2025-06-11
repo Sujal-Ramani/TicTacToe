@@ -1,9 +1,9 @@
 package com.example.TicTacToe
 
-// Player.kt
+// Data class representing a game record or player entry in the database
 data class Player(
-    val id: Int,
-    val name: String,
-    val time: String,
-    val winner: String
+    val id: Int,        // Unique ID for the game (auto-incremented primary key)
+    val name: String,   // Names of the two players (e.g., "Alice vs Bob")
+    val time: String,   // Date and time when the game was played
+    val winner: String  // Name of the winner or "Draw"
 )

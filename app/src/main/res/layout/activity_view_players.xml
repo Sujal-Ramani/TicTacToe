@@ -3,9 +3,11 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bac"
     android:padding="16dp">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="50dp"
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -15,8 +17,9 @@
         android:id="@+id/clearPlayersButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Clear All Players"
+        android:text="Clear History"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="30dp"
         android:backgroundTint="@color/lavender"
         android:textColor="@android:color/white"
         android:textStyle="bold"/>
